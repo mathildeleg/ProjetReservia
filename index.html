@@ -27,23 +27,46 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<h2>En plein centre ville ou en pleine nature</h2>
 
-			<form method="post" action="traitement.php">
-   				<p>
-       				<label for="recherche"><i class="fas fa-map-marker-alt">Rechercher</i></label> : <input type="text" name="rechercher" id="recherche" placeholder="Marseille, France"/>
-   				</p>
-			</form>
+                    <form class="form-search">
+                        <div class="control-group control-type-text">
+                            <div class="controls">
+                                <div class="input-group">
+                                        <div id="map">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                    <input placeholder="Marseille, France" type="text">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-primary" type="button">Rechercher</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
 
             <div>
-                <ul>
+                <ul class="fa-ul">
                     <li>Filtres</li>
-                    <li><i class="fas fa-money-bill-wave">Économique</i></li>
-                    <li><i class="fas fa-child">Familial</i></li>
-                    <li><i class="fas fa-heart">Romantique</i></li>
-                    <li><i class="fas fa-dog">Animaux autorisés</i></li>
+                    <li>
+                        <span class="fa-li">
+                        <i class="fas fa-money-bill-wave"></i>
+                        </span>Économique
+                    </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-child"></i>
+                    </span>Familial
+                    </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-heart"></i>
+                    </span>Romantique
+                </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-dog"></i>
+                    </span>Animaux autorisés
+                </li>
                 </ul>
             </div>
     
-            <p><i class="fas fa-info-circle">Plus de 500 logements sont disponibles dans cette ville</i></p>
+            <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
         <section class="carousel">

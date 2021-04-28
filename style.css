@@ -1,0 +1,50 @@
+/* Définition de la police personnalisée */
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway/Raleway-Black.ttf);
+    src: url(Raleway/Raleway-BlackItalic.ttf);
+    src: url(Raleway/Raleway-Bold.ttf);
+    src: url(Raleway/Raleway-BoldItalic.ttf);
+    src: url(Raleway/Raleway-ExtraBold.ttf);
+    src: url(Raleway/Raleway-ExtraBoldItalic.ttf);
+    src: url(Raleway/Raleway-ExtraLight.ttf);
+    src: url(Raleway/Raleway-ExtraLightItalic.ttf);
+    src: url(Raleway/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(Raleway/Raleway-Italic.ttf);
+    src: url(Raleway/Raleway-Light.ttf);
+    src: url(Raleway/Raleway-LightItalic.ttf);
+    src: url(Raleway/Raleway-Medium.ttf);
+    src: url(Raleway/Raleway-MediumItalic.ttf);
+    src: url(Raleway/Raleway-Regular.ttf);
+    src: url(Raleway/Raleway-SemiBold.ttf);
+    src: url(Raleway/Raleway-SemiBoldItalic.ttf);
+    src: url(Raleway/Raleway-Thin.ttf);
+    src: url(Raleway/Raleway-ThinItalic.ttf);
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+/* Éléments principaux de la page */
+
+body
+{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+section h1
+{
+    font-family: 'Raleway-SemiBold', Arial, Helvetica, sans-serif;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}

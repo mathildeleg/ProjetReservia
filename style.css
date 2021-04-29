@@ -105,14 +105,19 @@ nav a:visited
 section h2
 {
     font-size: 0.7em;
+    margin-top: 0;
+}
+
+section h1
+{
+    font-size: 1em;
+    margin-bottom: 4px;
 }
 
 #titles
-{
+/* {
     height: 60px;
-    width: 500px;
-    margin: 5px;
-}
+} */
 
 p
 {
@@ -134,6 +139,8 @@ form
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #search
@@ -153,10 +160,12 @@ button
     color: white;
     border-left: none;
     border: 0;
-    padding: 40;
-    font-size: 0.8em;
+    padding: 12px;
+    font-size: 0.7em;
     font-family: Raleway-ExtraBold;
     text-shadow: 4em white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* Filtres */
@@ -167,20 +176,8 @@ button
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 600px;
     height: 15px;
-    margin: auto;
     padding: 20px;
-}
-
-#filtres
-{
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 0.8em;
-    text-decoration: none;
-    border: 1px solid #F2F2F2;
-    border-radius: 10px;
 }
 
 span
@@ -197,6 +194,11 @@ span
 {
     text-decoration: none;
     color: #020202;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
 }
 
 .fa-ul a:hover

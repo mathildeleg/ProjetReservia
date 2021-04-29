@@ -27,20 +27,12 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<h2>En plein centre ville ou en pleine nature</h2>
 
-                    <form class="form-search">
-                        <div class="control-group control-type-text">
-                            <div class="controls">
-                                <div class="input-group">
-                                        <div id="map">
-                                            <i class="fas fa-map-marker-alt"></i>
-                                        </div>
-                                    <input placeholder="Marseille, France" type="text">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-primary" type="button">Rechercher</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <form method="post" action="action_page.php">
+                            <div id="map">
+                            <i class="fas fa-map-marker-alt"></i>
+                            </div>   
+                                <input type="search" id="search" name="rechercher" placeholder="Marseille, France" />
+                                    <button type="submit">Rechercher</button>
                     </form>
 
             <div>

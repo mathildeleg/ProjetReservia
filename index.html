@@ -30,13 +30,11 @@
             </div>
 
                     <form method="post" action="action_page.php">
-                        <div id="searchcontainer">
                         <div id="map">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>   
                             <input type="search" id="search" name="rechercher" placeholder="Marseille, France" />
                                 <button type="submit">Rechercher</button>
-                        </div>
                     </form>
 
             <div id="filtres">
@@ -65,78 +63,52 @@
             <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
-        <section class="carousel">
-
-				<h1 id="Hébergements">Hébergements à Marseille</h1>
-				<ul class="carousel-items">
-                    <li class="carousel-item">
-                        <div class="card">
+        <section id="logements">
+            <div id="hebergements">
+				<h1>Hébergements à Marseille</h1>
+                        <div class="gallery">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge_la_Cannebière" />
                             <h2 class="card-title"><a href="#">Auberge la Cannebière</a></h2>
-                            <div class="card-content">
-                                <p>Nuit à partir de 25€</p>
+                            <div class="desc">Nuit à partir de 25€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                            </div>
                         </div>
-                    </li>
 
-                    <li class="carousel-item">
-                        <div class="card">
+                        <div class="gallery">
                             <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel_du_port" />
-				            <h2 class="card-title"><a href="#">Hôtel du port</a></h2>
-				            <div class="card-content">
-                                <p>Nuit à partir de 52€</p>
+				            <h2 class="gallery-title"><a href="#">Hôtel du port</a></h2>
+				            <div class="desc">Nuit à partir de 52€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div>
                         </div>
-                    </li>
 
-                    <li class="carousel-item">
-                        <div class="card">
+                        <div class="gallery">
                             <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg " alt="Hôtel_les_mouettes" />
-				            <h2 class="card-title"><a href="#">Hôtel Les mouettes</a></h2>
-				            <div class="card-content">
-                                <p>Nuit à partir de 76€</p>
+				            <h2 class="gallery-title"><a href="#">Hôtel Les mouettes</a></h2>
+				            <div class="desc">Nuit à partir de 76€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                            </div>
                         </div>
-                    </li>
 
-                    <li class="carousel-item">
-                        <div class="card">
+                        <div class="gallery">
                             <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel_de_la_mer" />
-				            <h2 class="card-title"><a href="#">Hôtel de la mer</a></h2>
-				            <div class="card-content">
-                                <p>Nuit à partir de 46€</p>
+				            <h2 class="gallery-title"><a href="#">Hôtel de la mer</a></h2>
+				            <div class="desc">Nuit à partir de 46€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-                            </div>
                         </div>
-                    </li>
 
-                    <li class="carousel-item">
-                        <div class="card">
+                        <div class="gallery">
                             <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge_le_Panier" />
-				            <h2 id="card-title"><a href="#">Auberge Le Panier</a></h2>
-                            <div id="card-content">
-				                <p>Nuit à partir de 23€</p>
+				            <h2 id="gallery-title"><a href="#">Auberge Le Panier</a></h2>
+                            <div class="desc">Nuit à partir de 23€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                            </div>
                         </div>
-                    </li>
 
-                    <li class="carousel-item">
-                        <div class="card">
-                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel_chez_Amina" />
-				            <h2 id="card-title"><a href="#">Hôtel chez Amina</a></h2>
-                            <div id="card-content">
-				                <p>Nuit à partir de 96€</p>
+                        <div class="gallery">
+                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel_chez_Amina" width="180" height="100"/>
+				            <h2 id="gallery-title"><a href="#">Hôtel chez Amina</a></h2>
+                            <div class="desc">Nuit à partir de 96€</div>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div>
                         </div>
-                    </li>
-
 				<p>Afficher plus</p>
-            </ul>
+            </div>
 
 			<aside class="carousel">
                 <h1>Les plus populaires<i class="fas fa-chart-line"></i></h1>
@@ -145,8 +117,7 @@
                         <div class="card">
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel_le_soleil_du_matin" />
                             <h2 id="card-title"><a href="#">Hôtel Le soleil du matin</a></h2>
-                            <div id="card-content">
-                                <p>Nuit à partir de 128€</p>
+                            <div id="card-content">Nuit à partir de 128€
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                         </div>

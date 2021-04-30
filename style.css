@@ -56,7 +56,7 @@ section h1
 
 header
 {
-    height: 100px;
+    height: 75px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -230,51 +230,44 @@ p
 #leftcolumn
 {
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 20px 25px 20px 25px;
     float: left;
     width: 70%;
     height: 40%;
     margin-right: 25px;
+    font-size: 0.7em;
 }
 
-div.row
+.row
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: repeat (3, 240px);
-    grid-gap: 10px;
-    justify-items: center;
-    margin: 0;
-    padding: 0; */
-    /* display: grid;
-    grid: repeat (2, 60px)/auto-flow 80px; */
 }
 
-div.gallery
+.gallery
 {
-    padding: 1px;
+    padding: 2px;
+    margin: 10px;
     background-color: white;
-    border: 4px solid white;
-    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
-/* div.gallery:hover 
+/* .gallery:hover 
 {
     border: 1px solid white;
 } */
 
-div.gallery img
+.gallery img
 {
     height: 115px;
-    width: 240px;
+    width: 235px;
     object-fit: cover;
-    border-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-
-
 
 #rightcolumn
 {
@@ -285,29 +278,58 @@ div.gallery img
 
 aside
 {
-    /* display: grid;
-    grid-template-rows: repeat (auto-fit, minxmax (250px, 1fr));
-    grid-gap: 10px; */
     background-color: #F2F2F2;
     margin: 0;
     padding: 20px 25px 20px 25px;
-    border-radius: 15px;
-    font-size: 0.9em;
+    border-radius: 20px;
+    font-size: 0.7em;
+    text-decoration: none;
 }
 
-div.aside img
+.aside img
 {
-    height: 130px;
+    height: 135px;
     width: 130px;
     object-fit: cover;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
-div.aside
+.aside
 {
     padding: 1px;
+    margin: 10px;
     background-color: white;
     border: 4px solid white;
-    border-radius: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+.card-title .card-content
+{
+    font-size: 0.7em;
+}
+
+.card-title a
+{
+    text-decoration: none;
+    color: #020202;
+    font-weight: bold;
+}
+
+/* Section 3 */
+
+#activities
+{
+    display: flex;
+}
+
+.card img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+

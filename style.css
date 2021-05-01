@@ -186,7 +186,7 @@ button
     border: 1px solid #d4d4d4;
     border-left: 0;
     border-radius: 50px;
-    margin-right: 55px;
+    margin-right: 25px;
     height: 35px;
     display: flex;
     flex-direction: row;
@@ -197,6 +197,11 @@ button
 {
     color: #0065FC;
     text-decoration: none;
+}
+
+h3
+{
+    margin-right: 30px;
 }
 
 /* Section 2 */
@@ -301,6 +306,7 @@ aside
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 section a
@@ -309,105 +315,77 @@ section a
     color: #020202;
 }
 
-#port img
+.activities
 {
-    height: 390px;
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+
+.img-activities
+{
     width: 300px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+#port img
+{
+    height: 390px;
+}
+
 #port
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 440px;
 }
 
 #fort img
 {
     height: 180px;
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #fort
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 230px;
 }
 
 #iles img
 {
     height: 105px;
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #iles
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 155px;
 }
 
 #calanques img
 {
     height: 390px;
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #calanques
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 440px;
 }
 
 #notre_dame img
 {
     height: 135px;
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #notre_dame
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 185px;
 }
 
 #parc img
 {
     height: 150px;
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #parc
 {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-right: 30px;
     height: 200px;
 }
 

@@ -295,6 +295,12 @@ aside
     justify-content: space-between;
 }
 
+.columns
+{
+    display: flex;
+    flex-direction: column;
+}
+
 section a
 {
     text-decoration: none;
@@ -310,6 +316,14 @@ section a
     border-top-right-radius: 10px;
 }
 
+#port
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 440px;
+}
+
 #fort img
 {
     height: 180px;
@@ -317,6 +331,14 @@ section a
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#fort
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 230px;
 }
 
 #iles img
@@ -328,6 +350,14 @@ section a
     border-top-right-radius: 10px;
 }
 
+#iles
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 155px;
+}
+
 #calanques img
 {
     height: 390px;
@@ -335,6 +365,14 @@ section a
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#calanques
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 440px;
 }
 
 #notre_dame img
@@ -346,6 +384,14 @@ section a
     border-top-right-radius: 10px;
 }
 
+#notre_dame
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 185px;
+}
+
 #parc img
 {
     height: 150px;
@@ -353,6 +399,14 @@ section a
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#parc
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 200px;
 }
 
 /* Footer */
@@ -363,6 +417,24 @@ footer
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+#apropos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#charte
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#aide
+{
+    display: flex;
+    flex-direction: column;
 }
 
 footer h1

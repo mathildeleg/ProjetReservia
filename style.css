@@ -28,8 +28,8 @@
 body
 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    margin-left: 35px;
-    margin-right: 35px;
+    /* margin-left: 35px;
+    margin-right: 35px; */
     font-size: 0.7em;
     display: flex;
     justify-content: center;
@@ -45,6 +45,12 @@ section h1
     font-family: 'Raleway-SemiBold', Arial, Helvetica, sans-serif;
 }
 
+section
+{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 /* Header */
 
 header
@@ -54,6 +60,8 @@ header
     justify-content: space-between;
     align-items: center;
     height: 75px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 #logo img
@@ -396,31 +404,19 @@ footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    height: 220px;
+    background-color: #F2F2F2;
+    margin-top: 60px;
 }
 
-#apropos
+#apropos #charte #aide
 {
     display: flex;
     flex-direction: column;
-}
-
-#charte
-{
-    display: flex;
-    flex-direction: column;
-}
-
-#aide
-{
-    display: flex;
-    flex-direction: column;
-}
-
-footer h1
-{
-    font-weight: bold;
+    align-items: center;
 }
 
 footer a
@@ -434,7 +430,9 @@ footer a:hover
     color: #0065FC;
 }
 
+
 ul
 {
     list-style-type: none;
+    padding-right: 220px;
 }

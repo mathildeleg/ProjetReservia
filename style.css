@@ -27,7 +27,7 @@
 
 body
 {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.8em;
     display: flex;
     flex-direction: column;
@@ -296,9 +296,9 @@ button
 
 /* Icones */ 
 
-#icon
+.emptystar
 {
-    color: #d4d3d3;
+    color: #d4d3d3 !important;
 }
 
 #star

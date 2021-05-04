@@ -234,6 +234,7 @@ button
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #leftcolumn
@@ -272,7 +273,10 @@ button
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
     border-radius: 10px;
     padding: 2px;
-    margin: 10px;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    white-space: pre-line;
 }
 
 .gallery img
@@ -287,11 +291,8 @@ button
 .card-title
 {
     padding: 5px 0 5px 15px;
-}
-
-.card-title i
-{
-    color: #0065FC;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 #logements p
@@ -301,6 +302,11 @@ button
 
 /* Icones */ 
 
+.card-title i
+{
+    color: #0065FC;
+}
+
 .greystar
 {
     color: #d4d3d3 !important;
@@ -309,6 +315,11 @@ button
 h1 i
 {
     float: right;
+}
+
+.card-title-popular i
+{
+    color:#0065FC;
 }
 
 /* Aside : Les plus populaires */ 
@@ -323,6 +334,7 @@ h1 i
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
     border-radius: 10px;
     padding: 1px;
+    white-space: pre-line;
 }
 
 .aside img
@@ -332,11 +344,6 @@ h1 i
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-.card-title-popular i
-{
-    color:#0065FC;   
 }
 
 /* Section 3 : Activités */

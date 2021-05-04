@@ -64,6 +64,11 @@ h3
     margin-right: 30px;
 }
 
+#Hébergements, #Activités, #popular
+{
+    padding-left: 15px;
+}
+
 /* Header */
 
 header
@@ -296,49 +301,14 @@ button
 
 /* Icones */ 
 
-.emptystar
+.greystar
 {
     color: #d4d3d3 !important;
-}
-
-#star
-{
-    color: #d4d3d3;
-}
-
-#etoile
-{
-    color: #d4d3d3;
-}
-
-#mer
-{
-    color: #d4d3d3;
-}
-
-#panier
-{
-    color: #d4d3d3;
-}
-
-#hotes
-{
-    color: #d4d3d3;
-}
-
-#bleu
-{
-    color: #d4d3d3;
 }
 
 h1 i
 {
     float: right;
-}
-
-#Hébergements, #Activités, #popular
-{
-    padding-left: 15px;
 }
 
 /* Aside : Les plus populaires */ 

@@ -113,7 +113,7 @@ nav a:visited
 
 /* Section 1 */
 
-section h1
+#titles
 {
     vertical-align: 10px;
 }
@@ -331,7 +331,15 @@ button
     color: #d4d3d3;
 }
 
+h1 i
+{
+    float: right;
+}
 
+#Hébergements, #Activités, #popular
+{
+    padding-left: 15px;
+}
 
 /* Aside : Les plus populaires */ 
 

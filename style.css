@@ -234,7 +234,6 @@ button
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 #leftcolumn
@@ -244,7 +243,7 @@ button
     height: 40%;
     background-color: #F2F2F2;
     border-radius: 10px;
-    padding: 20px 25px 20px 25px;
+    /* padding: 20px 25px 20px 25px; */
     margin-right: 25px;
 }
 
@@ -255,7 +254,7 @@ button
     height: 40%;
     background-color: #F2F2F2;
     border-radius: 10px;
-    padding: 20px 25px 20px 25px;
+    /* padding: 20px 25px 20px 25px; */
 }
 
 .row
@@ -298,6 +297,12 @@ button
 #logements p
 {
     font-weight: bold;
+    margin-left: 40px;
+}
+
+#Hébergements
+{
+    margin-left: 25px;
 }
 
 /* Icones */ 
@@ -379,10 +384,15 @@ section a
     border-top-right-radius: 10px;
 }
 
-.card-title-activities
+.activities figcaption
 {
     padding: 15px;
     font-weight: bold;
+}
+
+#Activités
+{
+    margin-left: 30px;
 }
 
 #port img

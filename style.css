@@ -265,7 +265,7 @@ button
     width: 70%;
     height: 40%;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 20px;
     /* padding: 20px 25px 20px 25px; */
     margin-right: 25px;
 }
@@ -276,7 +276,7 @@ button
     width: 30%;
     height: 40%;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 20px;
     /* padding: 20px 25px 20px 25px; */
 }
 
@@ -293,7 +293,7 @@ button
     background-color: white;
     border: 2px solid white;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 2px;
     /* margin: 10px; */
     display: flex;
@@ -306,8 +306,8 @@ button
     height: 115px;
     width: 235px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .card-title
@@ -365,7 +365,7 @@ button
     background-color: white;
     border: 2px solid white;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1px;
 }
 
@@ -374,8 +374,8 @@ button
     height: 135px;
     width: 130px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 /* Section 3 : Activités */
@@ -395,7 +395,7 @@ section a
 
 .activities
 {
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
 }
 
@@ -403,8 +403,8 @@ section a
 {
     width: 300px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .activities figcaption

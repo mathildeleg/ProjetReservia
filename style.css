@@ -497,11 +497,13 @@ footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: left;
     background-color: #F2F2F2;
     margin-top: 60px;
-    padding: 35px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
 }
 

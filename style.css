@@ -66,7 +66,7 @@ h3
 
 #Hébergements, #Activités, #popular
 {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 /* Header */
@@ -123,16 +123,15 @@ nav a:visited
     vertical-align: 10px;
 }
 
-h2
+#subtitle
 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    
 }
 
-h2 i
+#information
 {
     color: #0065FC;
     border: 1px solid #F2F2F2;

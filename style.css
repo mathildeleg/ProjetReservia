@@ -391,6 +391,11 @@ button
     border-bottom-left-radius: 20px;
 }
 
+.card-title-popular
+{
+    padding: 5px 0 5px 15px;
+}
+
 /* Section 3 : Activités */
 
 .columns

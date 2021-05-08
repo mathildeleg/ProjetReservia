@@ -27,7 +27,7 @@
 
 body
 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway-Black", sans-serif;
     font-size: 0.8em;
     display: flex;
     flex-direction: column;
@@ -271,9 +271,6 @@ button
 
 #leftcolumn
 {
-    float: left;
-    width: 70%;
-    height: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
     /* padding: 20px 25px 20px 25px; */
@@ -282,9 +279,6 @@ button
 
 #rightcolumn
 {
-    float: left;
-    width: 30%;
-    height: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
     /* padding: 20px 25px 20px 25px; */
@@ -294,7 +288,6 @@ button
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 
@@ -380,6 +373,8 @@ button
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
     border-radius: 20px;
     padding: 1px;
+    height: 140px;
+    width: 330px;
 }
 
 .aside img
@@ -393,7 +388,11 @@ button
 
 .card-title-popular
 {
+    display: flex;
+    flex-direction: column;
     padding: 5px 0 5px 15px;
+    width: 100%;
+    height: 100%;
 }
 
 /* Section 3 : Activités */

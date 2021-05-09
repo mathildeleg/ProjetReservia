@@ -91,13 +91,14 @@ nav ul
 
 nav li
 {
-    padding: 25px;
+    padding: 30px;
 }
 
 nav a
 {
     text-decoration: none;
     color: #020202;
+    font-size: 0.9em;
 }
 
 nav a:hover
@@ -237,7 +238,7 @@ button
     color: #020202;
     font-weight: bold;
     padding: 8px;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .filters div

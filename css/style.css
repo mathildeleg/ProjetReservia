@@ -263,7 +263,7 @@ button
 
 /* Section 2 : Hébergements + Les plus populaires */
 
-#logements
+#marseille
 {
     display: flex;
     flex-direction: row;
@@ -288,17 +288,16 @@ button
 {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    /* justify-content: center; */
 }
 
 .gallery
 {
     background-color: white;
-    border: 2px solid white;
+    border: 5px solid white;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
     border-radius: 20px;
-    padding: 2px;
-    /* margin: 10px; */
+    margin: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -324,13 +323,12 @@ button
     font-weight: bold;
 }
 
-#logements p
+#marseille p
 {
     font-weight: bold;
-    margin-left: 40px;
 }
 
-#Hébergements
+#lodgings
 {
     margin-left: 25px;
 }
@@ -352,8 +350,6 @@ button
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 25px;
-    margin-right: 40px;
 }
 
 .card-title-popular i
@@ -369,12 +365,12 @@ button
     flex-direction: row;
     align-items: flex-start;
     background-color: white;
-    border: 2px solid white;
+    border: 5px solid white;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
     border-radius: 20px;
-    padding: 1px;
-    height: 140px;
+    height: 135px;
     width: 330px;
+    margin: 30px;
 }
 
 .aside img
@@ -430,7 +426,7 @@ section a
     font-weight: bold;
 }
 
-#Activités
+#activities
 {
     margin-left: 30px;
 }

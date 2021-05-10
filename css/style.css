@@ -30,6 +30,7 @@ body
     font-family: "Raleway-Regular", sans-serif;
     font-size: 0.9em;
     width: 100%;
+    max-width: 1435px;
 }
 
 #bloc-page
@@ -271,8 +272,9 @@ button
 #marseille
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #leftcolumn
@@ -294,6 +296,8 @@ button
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     line-height: 20px;
 }
 
@@ -414,8 +418,6 @@ button
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
 }
 
 section a

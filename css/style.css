@@ -370,16 +370,6 @@ button
     color:#0065FC;
 }
 
-/* .icons
-{
-    margin-top: 55px;
-}
-
-#icon
-{
-    margin-top: 40px;
-} */
-
 /* Aside : Les plus populaires */ 
 
 .aside
@@ -396,7 +386,6 @@ button
 
 .aside img
 {
-    height: 135px;
     width: 130px;
     object-fit: cover;
     border-top-left-radius: 20px;

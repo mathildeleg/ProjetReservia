@@ -1,0 +1,14 @@
+#logements
+{
+    display: flex;
+}
+
+#leftcolumn
+{
+    flex: 2;
+}
+
+#rightcolumn 
+{
+    flex: 1;
+}

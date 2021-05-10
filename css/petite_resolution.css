@@ -1,14 +1,54 @@
-#logements
+/* Header */
+
+/* Form */
+
+/* Filtres */
+
+#button2
 {
-    display: flex;
+    display: block;
 }
+
+#button1
+{
+    display: none;
+}
+
+/* Cards */
 
 #leftcolumn
 {
-    flex: 2;
+    background-color: white;
 }
 
-#rightcolumn 
+.gallery
 {
-    flex: 1;
+    width: 325px;
+    margin-bottom: 20px;
 }
+
+.gallery img
+{
+    width: 325px;
+}
+
+.img-activities
+{
+    width: 325px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.activities
+{
+    height: 190px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+/* Footer */

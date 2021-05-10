@@ -29,6 +29,7 @@ body
 {
     font-family: "Raleway-Regular", sans-serif;
     font-size: 0.9em;
+    width: 100%;
 }
 
 #bloc-page
@@ -191,6 +192,16 @@ button
     text-align: center;
 }
 
+#button1
+{
+    display: block;
+}
+
+#button2
+{
+    display: none;
+}
+
 /* Filtres */
 
 .filters
@@ -283,7 +294,7 @@ button
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     line-height: 20px;
 }
 

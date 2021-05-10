@@ -515,7 +515,11 @@ footer
 {
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream
     justify-content: flex-start;
+=======
+    justify-content: center;
+>>>>>>> Stashed changes
     text-align: left;
     background-color: #F2F2F2;
     margin-top: 60px;

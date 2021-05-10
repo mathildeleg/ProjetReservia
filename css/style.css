@@ -282,7 +282,6 @@ button
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
-    margin-right: 40px;
 }
 
 #rightcolumn
@@ -375,6 +374,14 @@ button
 }
 
 /* Aside : Les plus populaires */ 
+
+#toto
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: red;
+}
 
 .aside
 {

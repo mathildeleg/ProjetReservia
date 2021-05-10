@@ -1,3 +1,17 @@
+
+
+h1
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
 /* Header */
 
 /* Form */
@@ -14,9 +28,17 @@
     display: none;
 }
 
+#marseille
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* Cards */
 
-#leftcolumn
+/* #leftcolumn
 {
     background-color: white;
 }
@@ -49,6 +71,6 @@
     display: flex;
     flex-direction: column;
     line-height: 20px;
-}
+} */
 
 /* Footer */

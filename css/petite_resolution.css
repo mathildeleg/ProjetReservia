@@ -1,6 +1,11 @@
 
 /* Elements principaux de la page */ 
 
+body
+{
+    width: 100%;
+    max-width: 375px;
+}
 h1
 {
     font-size: 1.5em;
@@ -15,11 +20,6 @@ h2
 
 /* Header */
 
-header
-{
-    display: flex;
-    
-}
 
 /* Form */
 
@@ -34,6 +34,8 @@ header
 }
 
 /* Filtres */
+
+
 
 /* Cards */
 

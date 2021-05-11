@@ -94,3 +94,13 @@ h2
 }
 
 /* Footer */
+
+footer h3
+{
+    margin-top: 40px;
+}
+
+footer
+{
+    width: 100%;
+}

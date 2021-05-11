@@ -333,7 +333,7 @@ button
     font-weight: bold;
 }
 
-.gallery-cards
+.gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(4), .gallery:nth-child(5)
 {
     margin-right: 30px;
 }
@@ -341,12 +341,12 @@ button
 #marseille p
 {
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #lodgings
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Icones */ 
@@ -365,7 +365,7 @@ button
 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card-title-popular i
@@ -412,7 +412,7 @@ button
     padding: 10px;
 }
 
-.cards-margin
+.aside:nth-child(1), .aside:nth-child(2), .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3)
 {
     margin-bottom: 30px;
 }

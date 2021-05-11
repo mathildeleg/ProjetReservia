@@ -1,22 +1,21 @@
 
+/* Elements principaux de la page */ 
 
 h1
 {
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
 h2
 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: normal;
 }
 
 /* Header */
 
 /* Form */
-
-/* Filtres */
 
 #button2
 {
@@ -36,11 +35,18 @@ h2
     justify-content: space-between;
 }
 
+/* Filtres */
+
 /* Cards */
 
-/* #leftcolumn
+#leftcolumn
 {
     background-color: white;
+}
+
+#rightcolumn
+{
+    width: 375px;
 }
 
 .gallery
@@ -71,6 +77,6 @@ h2
     display: flex;
     flex-direction: column;
     line-height: 20px;
-} */
+}
 
 /* Footer */

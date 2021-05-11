@@ -438,7 +438,7 @@ section a
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
 }
 
-.img-activities
+.activities img
 {
     width: 300px;
     object-fit: cover;

@@ -3,7 +3,7 @@
 
 h1
 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -49,34 +49,48 @@ h2
     width: 375px;
 }
 
-.gallery
-{
-    width: 325px;
-    margin-bottom: 20px;
-}
-
-.gallery img
-{
-    width: 325px;
-}
-
-.img-activities
-{
-    width: 325px;
-    height: 135px;
-    object-fit: cover;
-}
-
-.activities
-{
-    height: 190px;
-}
-
 .row
 {
     display: flex;
     flex-direction: column;
     line-height: 20px;
+}
+
+.gallery
+{
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+.gallery img
+{
+    width: 360px;
+}
+
+#marseille p
+{
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+#activities
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#fort img, #port img, #iles img, #calanques img, #notre_dame img, #parc img
+{
+    height: 135px;
+    width: 360px;
+    object-fit: cover;
+}
+
+#fort, #port, #iles, #calanques, #notre_dame, #parc
+{
+    height: 180px;
+    width: 360px;
+    margin-bottom: 20px;
 }
 
 /* Footer */

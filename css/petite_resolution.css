@@ -15,6 +15,12 @@ h2
 
 /* Header */
 
+header
+{
+    display: flex;
+    
+}
+
 /* Form */
 
 #button2
@@ -27,6 +33,10 @@ h2
     display: none;
 }
 
+/* Filtres */
+
+/* Cards */
+
 #marseille
 {
     display: flex;
@@ -34,10 +44,6 @@ h2
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* Filtres */
-
-/* Cards */
 
 #leftcolumn
 {
@@ -86,6 +92,21 @@ h2
     object-fit: cover;
 }
 
+#port img, #notre_dame img
+{
+    object-position: 0 15%;
+}
+
+#iles img, #calanques img, #parc img
+{
+    object-position: 0 25%;
+}
+
+#fort img
+{
+    object-position: 0 45%;
+}
+
 #fort, #port, #iles, #calanques, #notre_dame, #parc
 {
     height: 180px;
@@ -98,9 +119,4 @@ h2
 footer h3
 {
     margin-top: 40px;
-}
-
-footer
-{
-    width: 100%;
 }

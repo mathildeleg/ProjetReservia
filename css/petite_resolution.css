@@ -32,9 +32,62 @@ h2
 
 /* Header */
 
+header
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li:last-child
+{
+    padding: 20px;
+}
+
+li:nth-child(1)
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 10px;
+    width: 187.5px;
+    text-align: center;
+}
+
+li:nth-child(2)
+{
+    position: absolute;
+    top: 100px;
+    left: 195px;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 10px;
+    width: 187.5px;
+    text-align: center;
+}
+
+nav a:hover
+{
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
+    border-top: none;
+    width: 187.5px;
+}
+
+nav a:visited
+{
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
+    width: 187.5px;
+}
+
 nav li
 {
     padding: 5px;
+}
+
+#titles
+{
+    margin-top: 50px;
 }
 
 /* Form */

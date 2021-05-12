@@ -104,6 +104,10 @@ nav a:hover
 nav a:visited
 {
     color: #0065FC;
+}
+
+li:last-child
+{
     font-weight: bold;
 }
 

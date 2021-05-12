@@ -60,10 +60,16 @@ nav li
 
 #filters
 {
+    height: 220px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 220px;
+    align-items: flex-start;
+}
+
+#filters h3
+{
+    font-size: 1.1em;
+    margin-top: 30px;
 }
 
 .filters div

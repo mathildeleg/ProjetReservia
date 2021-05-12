@@ -4,7 +4,12 @@
 body
 {
     width: 100%;
-    max-width: 375px;
+}
+
+#bloc-page
+{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h1
@@ -20,6 +25,11 @@ h2
 }
 
 /* Header */
+
+nav li
+{
+    padding: 5px;
+}
 
 /* Form */
 
@@ -55,12 +65,13 @@ h2
 {
     background-color: white;
     margin: 30px 0 0;
-    width: 375px;
 }
 
 #rightcolumn
 {
-    width: 375px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0;
 }
 
 .row
@@ -70,14 +81,26 @@ h2
     line-height: 20px;
 }
 
+.aside
+{
+    display: flex;
+    background-color: white;
+    border: 5px solid white;
+    box-shadow: 0 0 1.5em rgb(219, 219, 219);
+    border-radius: 20px;
+    height: 135px;
+    width: 320px;
+    line-height: 20px;
+}
+
 .gallery
 {
-    width: 360px;
+    width: 320px;
 }
 
 .gallery img
 {
-    width: 360px;
+    width: 320px;
 }
 
 #marseille p
@@ -86,14 +109,12 @@ h2
 }
 
 #gallery2
-{
-    margin: 0 20px 10px;
-}
+{}
 
 #fort img, #port img, #iles img, #calanques img, #notre_dame img, #parc img
 {
     height: 135px;
-    width: 360px;
+    width: 320px;
     object-fit: cover;
 }
 
@@ -115,18 +136,25 @@ h2
 #fort, #port, #iles, #calanques, #notre_dame, #parc
 {
     height: 180px;
-    width: 360px;
+    width: 320px;
     margin-bottom: 20px;
 }
 
 /* Footer */
 
+footer
+{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    padding: 20px 0 20px 25px;
+    width:auto;
+}
+
 footer h3
 {
     margin-top: 40px;
-}
-
-footer
-{
-    flex-direction: column;
+    padding-right: 0;
 }

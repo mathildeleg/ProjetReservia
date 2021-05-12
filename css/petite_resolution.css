@@ -49,14 +49,34 @@ nav li
     display: none;
 }
 
-/* Filtres */
-
-/* .filters
+#map
 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
+    width: 70px;
+}
+
+#search
+{
+    width: 340px;
+    padding: 15px;
+    border: none;
+    font-size: 1.2em;
+}
+
+form
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+button
+{
+    width: 60px;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Filtres */
 
 #filters
 {

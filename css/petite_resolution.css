@@ -6,6 +6,7 @@ body
     width: 100%;
     max-width: 375px;
 }
+
 h1
 {
     font-size: 1.5em;
@@ -19,7 +20,6 @@ h2
 }
 
 /* Header */
-
 
 /* Form */
 
@@ -35,7 +35,11 @@ h2
 
 /* Filtres */
 
-
+.filters
+{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Cards */
 
@@ -50,6 +54,8 @@ h2
 #leftcolumn
 {
     background-color: white;
+    margin: 30px 0 0;
+    width: 375px;
 }
 
 #rightcolumn
@@ -67,7 +73,6 @@ h2
 .gallery
 {
     width: 360px;
-    margin-bottom: 20px;
 }
 
 .gallery img
@@ -78,13 +83,11 @@ h2
 #marseille p
 {
     font-size: 1.3em;
-    margin-top: 15px;
 }
 
-#activities
+#gallery2
 {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 0 20px 10px;
 }
 
 #fort img, #port img, #iles img, #calanques img, #notre_dame img, #parc img
@@ -121,4 +124,9 @@ h2
 footer h3
 {
     margin-top: 40px;
+}
+
+footer
+{
+    flex-direction: column;
 }

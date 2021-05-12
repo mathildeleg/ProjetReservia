@@ -426,6 +426,15 @@ button
 
 /* Section 3 : Activités */
 
+#gallery2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+
 .columns
 {
     display: flex;

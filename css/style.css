@@ -214,7 +214,7 @@ button
     display: none;
 }
 
-/* Filtres */
+/* Filters */
 
 .filters
 {
@@ -278,7 +278,7 @@ button
     text-decoration: none;
 }
 
-/* Section 2 : Hébergements + Les plus populaires */
+/* Cards : Lodgings + Popular */
 
 #marseille
 {
@@ -384,7 +384,7 @@ button
     color:#0065FC;
 }
 
-/* Aside : Les plus populaires */ 
+/* Aside : Popular */ 
 
 #cards-popular
 {
@@ -428,7 +428,7 @@ button
     margin-bottom: 30px;
 }
 
-/* Section 3 : Activités */
+/* Cards : Activities */
 
 .columns
 {

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 470px)" href="css/petite_resolution.css">
-    <link rel="stylesheet" media="screen and (min-width: 470px) and (max-width: 1024px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/petite_resolution.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 1400px)" href="css/tablet.css">
     <script src="https://kit.fontawesome.com/0dda886983.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -20,11 +20,13 @@
             </div>
 
             <nav>
-                <ul>
-                    <li><a href="#lodgings">Hébergements</a></li>
-                    <li><a href="#activities">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                </ul>
+                <div>
+                    <div id="nav-categories">
+                        <div class="nav-title"><a href="#lodgings">Hébergements</a></li>
+                        <div class="nav-title"><a href="#activities">Activités</a></li>
+                    </div>
+                    <div id="nav-signup" class="nav-title"><a href="#">S'inscrire</a></li>
+                </div>
             </nav>
         </header>
 
@@ -107,7 +109,7 @@
                             <figcaption class="card-title-popular">
                                 <div>
                                     <div class="card-title-bold">Au cœur de l'eau
-                                        Chambres d'hôtes
+                                        <br>Chambres d'hôtes</br>
                                     </div>
                                     <div class="price">Nuit à partir de 71€</div>
                                 </div>

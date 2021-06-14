@@ -17,52 +17,65 @@
 
 header
 {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#nav-categories
-{
+    margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav
+{
+    display: block;
     width: 100%;
-    order: 3;
 }
 
-#nav-categories li
+#logo img
 {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    border-bottom: 3px solid #F2F2F2;
-    padding-bottom: 10px;
-    width: 50%;
-    text-align: center;
+    margin-left: 20px;
 }
 
-nav a:hover
+#nav-signup
 {
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 10px;
-    border-top: none;
-    width: 50%;
+    position: relative;
+    float: right;
+    padding: 0;
+    margin-right: 20px;
+    bottom: 95px;
 }
 
-nav a:visited
+#nav-signup a
 {
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 10px;
-    width: 187.5px;
+    color: #0065FC;
+    padding: 0;
 }
 
 nav li
 {
-    padding: 5px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+nav li a
+{
+    padding: inherit;
+}
+
+nav li a:hover
+{
+    border-top: none;
+}
+
+nav li:hover
+{
+    border-bottom-color:#0065FC;
 }
 
 #titles
 {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /* Form */

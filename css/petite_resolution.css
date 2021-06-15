@@ -50,6 +50,12 @@ nav
     padding: 0;
 }
 
+#nav-categories
+{
+    display: flex;
+    justify-content: center;
+}
+
 nav li
 {
     width: 50%;

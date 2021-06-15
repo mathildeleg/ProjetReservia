@@ -435,6 +435,21 @@ button
 
 /* Cards : Activities */
 
+.activities-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+
+.activities-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .columns
 {
     display: flex;
@@ -452,6 +467,7 @@ section a
 {
     border-radius: 20px;
     box-shadow: 0 0 1.5em rgb(219, 219, 219);
+    margin-right: 25px;
 }
 
 .activities img

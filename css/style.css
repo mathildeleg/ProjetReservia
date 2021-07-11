@@ -87,7 +87,10 @@ nav
 
 nav li
 {
-    padding: 40px 30px 0 30px;
+    padding-top: 40px;
+    padding-right: 30px; 
+    padding-bottom: 0; 
+    padding-left: 30px;
     list-style-type: none;
 }
 
@@ -129,7 +132,8 @@ nav li a:hover
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 15px 0 25px 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 #subtitle h2
@@ -300,13 +304,6 @@ button
     padding: 30px;
 }
 
-#rightcolumn
-{
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 30px;
-}
-
 .row
 {
     display: flex;
@@ -390,6 +387,13 @@ button
 }
 
 /* Aside : Popular */ 
+
+#rightcolumn
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+}
 
 #cards-popular
 {

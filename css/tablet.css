@@ -1,11 +1,6 @@
 
 /* Elements principaux de la page */
 
-body
-{
-    font-family: "Raleway-Regular", sans-serif;
-    font-size: 0.9em;
-}
 
 #bloc-page
 {
@@ -13,177 +8,14 @@ body
     margin-right: 20px;
 }
 
-h1
-{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-h2
-{
-    font-size: 1em;
-    font-weight: normal;
-}
-
-h3
-{
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-right: 30px;
-}
-
-/* Header */
-
-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-nav
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#nav-categories
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#logo img
-{
-    height: 40px;
-    width: 90px;
-    margin-top: 40px;
-}
-
-nav li
-{
-    padding: 40px 30px 0 30px;
-    list-style-type: none;
-}
-
-nav a
-{
-    text-decoration: none;
-    color: #020202;
-}
-
-#nav-signup
-{
-    padding: 40px 10px 0;
-    font-weight: bold;
-}
-
-#nav-signup a
-{
-    color: #0065FC;
-    padding: 40px 30px 0;
-}
-
-nav li a:hover
-{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 51px;
-}
-
 /* Section 1 */
-
-#titles
-{
-   line-height: 25px;
-}
 
 #subtitle
 {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: flex-start;
     margin-bottom: 30px;
 }
 
-#subtitle h2
-{
-    padding-left: 10px;
-}
-
-#information
-{
-    color: #0065FC;
-    border: 1px solid #F2F2F2;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 25px;
-    width: 25px;
-    font-size: 0.7em;
-}
-
 /* Form */
-
-form
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    margin-top: 15px;
-}
-
-#map
-{
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    font-size: 1.2em;
-}
-
-#search
-{
-    height: 50px;
-    border-left: none;
-    border-right: none;
-    border: 1px solid #F2F2F2;
-    color: #020202;
-    font-weight: bold;
-    padding: 10px;
-    margin: 0;
-    font-size: 1em;
-}
-
-input::placeholder
-{
-    color: #020202;
-}
-
-button
-{
-    height: 50px;
-    border: 1px solid #0065FC;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #0065FC;
-    color: white;
-    padding: 15px;
-    font-size: 1em;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-}
 
 #button1
 {
@@ -197,18 +29,9 @@ button
 
 /* Filtres */
 
-.filters
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
 #filters
 {
     height: 180px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -219,62 +42,22 @@ button
     margin-top: 30px;
 }
 
-.filter-container-icon
-{
-    color: #0065FC;
-    background-color:#DEEBFF;
-    border: 1px solid #DEEBFF;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    width: 45px;
-}
-
-.filters a
-{
-    text-decoration: none;
-    color: #020202;
-    font-weight: bold;
-    padding: 15px;
-    font-size: 1em;
-}
-
 .filters div
 {
-    border: 1px solid #d4d4d4;
-    border-left: 0;
-    border-radius: 50px;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-
-.filters a:hover
-{
-    color: #0065FC;
-    text-decoration: none;
 }
 
 /* Cards : Lodgings + Popular */
 
 #marseille
 {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .row
 {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    line-height: 20px;
     width: 100%;
 }
 
@@ -282,10 +65,8 @@ button
 
 #leftcolumn
 {
-    background-color: #f2f2f2;
     margin-top: 10px;
     padding: 20px;
-    border-radius: 20px;
     width: 50%;
 }
 
@@ -299,35 +80,17 @@ button
 
 .gallery
 {
-    background-color: white;
-    border: 5px solid white;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 20px;
-    display: flex;
     flex-direction: row;
 }
 
 .gallery img
 {
-    height: 115px;
     width: 40%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 .card-title
 {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0 5px 15px;
     width: 60%;
-    height: 100%;
-}
-
-.card-title-bold
-{
-    font-weight: bold;
 }
 
 .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(4), .gallery:nth-child(5)
@@ -343,71 +106,36 @@ button
 #marseille p
 {
     font-size: 1em;
-    font-weight: bold;
     margin-top: 10px;
 }
 
 #lodgings
 {
-    margin-bottom: 30px;
     margin-top: 30px;
 }
 
 /* Icones */ 
 
-.card-title i
-{
-    color: #0065FC;
-}
-
-.greystar
-{
-    color: #d4d3d3 !important;
-}
-
 #popular
 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
     margin-top: 30px;
-}
-
-.card-title-popular i
-{
-    color:#0065FC;
 }
 
 /* Aside : Popular */ 
 
 #rightcolumn
 {
-    background-color: #F2F2F2;
     padding: 20px;
     margin-top: 10px;
     margin-left: 20px;
     width: 50%;
-    border-radius: 20px;
     order: 2;
-}
-
-#cards-popular
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .aside
 {
-    display: flex;
     flex-direction: column;
-    background-color: white;
-    border: 5px solid white;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 20px;
     height: 220px;
-    line-height: 20px;
 }
 
 .aside:nth-child(2)
@@ -420,18 +148,6 @@ button
 {
     width: 100%;
     height: 130px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.card-title-popular
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
 }
 
 .aside:nth-child(1), .aside:nth-child(2)
@@ -443,9 +159,7 @@ button
 
 .activities-container
 {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 50%;
 }
 
@@ -456,14 +170,7 @@ button
 
 .activities-row
 {
-    display: flex;
     justify-content: space-between;
-}
-
-section a
-{
-    text-decoration: none;
-    color: #020202;
 }
 
 #gallery2
@@ -479,23 +186,17 @@ section a
 
 .activities
 {
-    border-radius: 20px;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
+    margin-right: 0;
 }
 
 .activities img
 {
     width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 .activities figcaption
 {
-    padding: 10px 0 10px 20px;
     vertical-align: middle;
-    font-weight: bold;
 }
 
 #fort, #port, #iles, #calanques, #notre_dame, #parc
@@ -536,42 +237,10 @@ section a
 
 footer
 {
-    display: flex;
-    text-align: left;
-    flex-flow: row wrap;
-    background-color: #F2F2F2;
     margin-top: 30px;
-    padding: 30px 0 30px 50px;
-}
-
-#apropos, #charte, #aide
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-links
-{
-    display: flex;
-    flex-direction: column;
-    line-height: 25px;
-}
-
-footer a
-{
-    text-decoration: none;
-    color: #020202;
-    vertical-align: 10px;
-}
-
-footer a:hover
-{
-    color: #0065FC;
 }
 
 footer h3
 {
     margin-top: 20px;
-    padding-right: 280px;
-    padding-bottom: 20px;
 }

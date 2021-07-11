@@ -1,31 +1,6 @@
 
 /* Elements principaux de la page */ 
 
-body
-{
-    font-family: "Raleway-Regular", sans-serif;
-    font-size: 0.9em;
-}
-
-h1
-{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-h2
-{
-    font-size: 1em;
-    font-weight: normal;
-}
-
-h3
-{
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-right: 30px;
-}
-
 #bloc-page
 {
     margin-left: 0;
@@ -42,25 +17,21 @@ h3
 
 header
 {
-    margin: 0;
-    display: flex;
+    margin-bottom: 0;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
 nav
 {
     display: block;
+    justify-content: initial;
     width: 100%;
 }
 
 #logo img
 {
     margin-left: 20px;
-    height: 40px;
-    width: 90px;
-    margin-top: 40px;
 }
 
 #nav-signup
@@ -70,18 +41,15 @@ nav
     padding: 0;
     margin-right: 20px;
     bottom: 85px;
-    font-weight: bold;
 }
 
 #nav-signup a
 {
-    color: #0065FC;
     padding: 0;
 }
 
 #nav-categories
 {
-    display: flex;
     justify-content: center;
     margin-top: 30px;
 }
@@ -99,12 +67,6 @@ nav li a
     padding: inherit;
 }
 
-nav a
-{
-    text-decoration: none;
-    color: #020202;
-}
-
 nav li a:hover
 {
     border-top: none;
@@ -120,62 +82,16 @@ nav li:hover
 #titles
 {
     margin-top: 20px;
-    line-height: 25px;
 }
 
 #subtitle
 {
-    display: flex;
-    flex-direction: row;
     align-items: baseline;
-    justify-content: flex-start;
-    margin: 30px 0 30px 0; 
-}
-
-#subtitle h2
-{
-    padding-left: 10px;
-}
-
-#information
-{
-    color: #0065FC;
-    border: 1px solid #F2F2F2;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 25px;
-    width: 25px;
-    font-size: 0.7em;
+    margin-top: 30px;
+    margin-bottom: 30px; 
 }
 
 /* Form */
-
-#button2
-{
-    display: block;
-}
-
-#button1
-{
-    display: none;
-}
-
-#map
-{
-    
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    font-size: 1.2em;
-}
 
 #map i
 {
@@ -185,87 +101,21 @@ nav li:hover
 #search
 {
     width: 340px;
-    height: 50px;
-    border: 1px solid #F2F2F2;
-    color: #020202;
-    font-weight: bold;
-    margin: 0;
     padding: 15px;
-    border: none;
-    font-size: 1.2em;
-}
-
-input::placeholder
-{
-    color: #020202;
 }
 
 button
 {
-    height: 50px;
-    width: 60px;
-    border: 1px solid #0065FC;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #0065FC;
-    color: white;
-    padding: 15px;
-    font-size: 1em;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-}
-
-form
-{
-    border: 1px solid #F2F2F2;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    margin-top: 15px;
-    width: 80%;
+    padding: 10px;
 }
 
 /* Filters */
 
-.filters
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
 #filters
 {
     height: 220px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.filter-container-icon
-{
-    color: #0065FC;
-    background-color:#DEEBFF;
-    border: 1px solid #DEEBFF;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    width: 45px;
-}
-
-.filters a
-{
-    text-decoration: none;
-    color: #020202;
-    font-weight: bold;
-    padding: 15px;
-    font-size: 1em;
 }
 
 #filters h3
@@ -276,82 +126,47 @@ form
 
 .filters div
 {
-    border: 1px solid #d4d4d4;
-    border-left: 0;
-    border-radius: 50px;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-
-.filters a:hover
-{
-    color: #0065FC;
-    text-decoration: none;
 }
 
 /* Cards : Lodgings + Popular */
 
 #marseille
 {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .row
 {
-    display: flex;
     flex-direction: column;
-    line-height: 20px;
 }
 
 /* Cards : Lodgings */
 
 #leftcolumn
 {
-    background-color: white;
     margin-top: 30px;
     padding: 20px;
     border-radius: 0;
+    width: 100%;
+}
+
+#gallery1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gallery
 {
     width: 325px;
-    background-color: white;
-    border: 5px solid white;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .gallery img
 {
     width: 325px;
-    height: 115px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.card-title
-{
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0 5px 15px;
-    width: 100%;
-    height: 100%;
-}
-
-.card-title-bold
-{
-    font-weight: bold;
 }
 
 .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(4), .gallery:nth-child(5)
@@ -362,46 +177,16 @@ form
 #marseille p
 {
     font-size: 1em;
-    font-weight: bold;
     margin-top: 0;
-}
-
-#lodgings
-{
-    margin-bottom: 30px;
-}
-
-/* Icones */ 
-
-.card-title i
-{
-    color: #0065FC;
-}
-
-.greystar
-{
-    color: #d4d3d3 !important;
-}
-
-#popular
-{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.card-title-popular i
-{
-    color:#0065FC;
 }
 
 /* Aside : Popular */  
 
-#cards-popular
+#rightcolumn
 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0;
 }
 
 #popular
@@ -411,93 +196,44 @@ form
 
 .aside
 {
-    display: flex;
-    background-color: white;
-    border: 5px solid white;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
-    border-radius: 20px;
-    height: 135px;
     width: 325px;
-    line-height: 20px;
 }
 
-#rightcolumn
+#cards-popular
 {
-    background-color: #F2F2F2;
-    padding: 20px;
-    width: 100%;
-    border-radius: 0;
-}
-
-.aside img
-{
-    width: 130px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.card-title-popular
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 115px;
-    padding: 10px;
-}
-
-.aside:nth-child(1), .aside:nth-child(2), .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3)
-{
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 /* Cards : Activities */
 
-.columns
+/* #gallery2
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-section a
-{
-    text-decoration: none;
-    color: #020202;
-}
-
-#gallery2
-{
-    padding: 20px;
-}
+    width: 100%;
+} */
 
 #activities
 {
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 20px;
 }
 
 .activities
 {
     width: 335px;
-    border-radius: 20px;
-    box-shadow: 0 0 1.5em rgb(219, 219, 219);
+    margin-right: 0;
 }
 
-.activities img
+.activities-row
 {
-    width: 300px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.activities figcaption
+.activities-container
 {
-    padding: 10px 0 10px 20px;
-    vertical-align: center;
-    font-weight: bold;
+    display: block;
+    justify-content: initial;
 }
 
 #fort, #port, #iles, #calanques, #notre_dame, #parc
@@ -538,37 +274,9 @@ section a
 
 footer
 {
-    display: flex;
-    text-align: left;
     flex-direction: column;
-    background-color: #F2F2F2;
     margin-top: 10px;
     padding: 20px 0 20px 25px;
-}
-
-#apropos, #charte, #aide
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-links
-{
-    display: flex;
-    flex-direction: column;
-    line-height: 25px;
-}
-
-footer a
-{
-    text-decoration: none;
-    color: #020202;
-    vertical-align: 10px;
-}
-
-footer a:hover
-{
-    color: #0065FC;
 }
 
 footer h3

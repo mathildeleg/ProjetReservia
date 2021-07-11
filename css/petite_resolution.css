@@ -552,6 +552,13 @@ footer
     flex-direction: column;
 }
 
+.footer-links
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
 footer a
 {
     text-decoration: none;

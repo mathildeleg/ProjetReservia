@@ -294,7 +294,7 @@ button
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 #leftcolumn
@@ -302,6 +302,7 @@ button
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
+    margin-right: 20px;
 }
 
 .row
@@ -346,9 +347,14 @@ button
     font-weight: bold;
 }
 
-.gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(4), .gallery:nth-child(5)
+.gallery-div
 {
     margin-right: 30px;
+}
+
+.gallery-div:last-child
+{
+    margin-right: 0;
 }
 
 #marseille p

@@ -105,7 +105,17 @@ nav li:hover
 
 button
 {
-    padding: 10px;
+    padding: 15px;
+}
+
+#button1
+{
+    display: none;
+}
+
+#button2
+{
+    display: block;
 }
 
 /* Filters */

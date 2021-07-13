@@ -40,7 +40,7 @@ nav
     float: right;
     padding: 0;
     margin-right: 20px;
-    bottom: 85px;
+    bottom: 92px;
 }
 
 #nav-signup a
@@ -51,7 +51,6 @@ nav
 #nav-categories
 {
     justify-content: center;
-    margin-top: 30px;
 }
 
 nav li

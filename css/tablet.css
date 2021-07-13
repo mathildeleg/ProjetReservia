@@ -85,6 +85,16 @@
     flex-direction: row;
 }
 
+.gallery-div
+{
+    margin-right: 0;
+}
+
+.gallery-div:last-child
+{
+    margin-right: 0;
+}
+
 .gallery img
 {
     width: 40%;

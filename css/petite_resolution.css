@@ -1,10 +1,15 @@
 
 /* Elements principaux de la page */ 
 
+body
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9em;
+}
+
 #bloc-page
 {
-    margin-left: 0;
-    margin-right: 0;
+    width: 375px;
 }
 
 #section1
@@ -245,6 +250,7 @@ button
 {
     display: block;
     justify-content: initial;
+    width: auto;
 }
 
 #fort, #port, #iles, #calanques, #notre_dame, #parc

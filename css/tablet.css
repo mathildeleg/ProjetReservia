@@ -1,6 +1,11 @@
 
 /* Elements principaux de la page */
 
+body
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9em;
+}
 
 #bloc-page
 {
